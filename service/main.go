@@ -88,8 +88,8 @@ func main() {
 	}
 
 	// prepare TLS Config
-	tlsCert := "../certs/demo.crt"
-	tlsKey := "../certs/demo.key"
+	tlsCert := "../certs/myfirst.crt"
+	tlsKey := "../certs/myfirst.key"
 	cert, err := tls.LoadX509KeyPair(tlsCert, tlsKey)
 	if err != nil {
 		log.Fatal(err)
