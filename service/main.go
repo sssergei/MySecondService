@@ -11,7 +11,7 @@ import (
 	"net"
 	"time"
 
-	pb "https://github.com/sssergei/MySecondService/tree/main/proto"
+	pb "github.com/sssergei/MySecondService/tree/main/proto"
 	context "golang.org/x/net/context"
 	grpc "google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
